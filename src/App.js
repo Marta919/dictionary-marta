@@ -9,7 +9,7 @@ function App(){
      <h2> Which words do you want to put in your mind? </h2>
     <Dictionary />
    
-    <footer className="open"> Coded by <a href="https://github.com/Marta919"> Marta D'Orazio </a></footer>
+    <footer className="open"> Coded by <a className="mina" href="https://github.com/Marta919"> Marta D'Orazio </a></footer>
     </div>
   );
 }

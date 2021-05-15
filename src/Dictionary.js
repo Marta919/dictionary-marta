@@ -28,6 +28,7 @@ axios.get(apiUrl).then(handleResponse);
         <input type="search" onChange= {handleKeywordChange} />
        
     </form>
+    <br />
     <Results results={results}/>
 </div>
 
