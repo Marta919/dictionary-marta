@@ -13,14 +13,8 @@ return (
     <br />
   <b>  Example: </b> <em>"{definition.example}" </em>
   <br />
-  <Synonyms synonym={synonym} />
-  if (definition.synonyms) {
-      return ( 
-      <b>Synonym:</b> {definition.synonyms});
-  }else{
-      return null;
-  }
-  }
+  <Synonym synonyms={definition.synonyms} />
+ 
 
 
 </p>
