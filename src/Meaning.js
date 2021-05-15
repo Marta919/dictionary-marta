@@ -12,9 +12,8 @@ return (
    <b> Definition: </b> {definition.definition} 
     <br />
   <b>  Example: </b> <em>"{definition.example}" </em>
-  <br />
-  <Synonym synonyms={definition.synonyms} />
- 
+  <br /> <Synonym synonyms= {definition.synonyms} />
+
 
 
 </p>

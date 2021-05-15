@@ -1,11 +1,15 @@
 .container {
   text-align: left;
-  color: black;
+  color: white;
   border: 1px solid grey;
   border-radius: 20px;
 
-  background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
 }
+b {
+  color: black;
+}
+
 h1,
 h2 {
   text-align: center;
@@ -19,7 +23,7 @@ h5 {
   text-transform: capitalize;
 }
 p {
-  color: black;
+  color: white;
   text-align: justify;
 }
 footer {
@@ -28,5 +32,18 @@ footer {
 }
 .mina {
   text-decoration: none;
-  color: #7a4791;
+  color: black;
+}
+.mina:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.Synonyms {
+  display: flex;
+  padding-inline-start: 0;
+  list-style: none;
+}
+.lista ~ .lista::before {
+  content: ", ";
 }

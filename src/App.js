@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App(){
   return (
     <div className="container">
-    <h1> Dictionary for Everyone </h1>
+    <h1> A Dictionary for Everyone </h1>
      <h2> Which words do you want to put in your mind? </h2>
     <Dictionary />
    
