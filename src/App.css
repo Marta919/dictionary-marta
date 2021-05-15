@@ -1,6 +1,12 @@
 .container {
-  text-align: center;
+  text-align: left;
   color: black;
+  border: 1px solid grey;
+  width: 600px;
+}
+h1,
+h2 {
+  text-align: center;
 }
 h4 {
   text-transform: capitalize;
