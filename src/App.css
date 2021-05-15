@@ -1,3 +1,15 @@
 .container {
   text-align: center;
+  color: black;
+}
+h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+h5 {
+  text-transform: capitalize;
+}
+p {
+  color: black;
+  text-align: justify;
 }
