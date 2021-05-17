@@ -7,7 +7,7 @@
   background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
 }
 b {
-  color: black;
+  color: #4f7b9f;
 }
 
 h1,
@@ -17,7 +17,6 @@ h2 {
 }
 h4 {
   text-transform: capitalize;
-  font-weight: bold;
 }
 h5 {
   text-transform: capitalize;
@@ -30,13 +29,16 @@ footer {
   font-family: "KoHo", sans-serif;
   font-weight: bold;
 }
+footer {
+  margin: 0 0 0 120px;
+}
 .mina {
   text-decoration: none;
   color: black;
 }
 .mina:hover {
-  color: white;
-  text-decoration: underline;
+  color: #4f7b9f;
+  text-decoration: none;
 }
 
 .Synonyms {
@@ -46,4 +48,12 @@ footer {
 }
 .lista ~ .lista::before {
   content: ", ";
+}
+img {
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.altoparlante {
+  font-size: 20px;
+  text-decoration: none;
 }
