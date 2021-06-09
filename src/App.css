@@ -41,14 +41,6 @@ footer {
   text-decoration: none;
 }
 
-.Synonyms {
-  display: flex;
-  padding-inline-start: 0;
-  list-style: none;
-}
-.lista ~ .lista::before {
-  content: ", ";
-}
 img {
   margin: 10px auto;
   border-radius: 10px;

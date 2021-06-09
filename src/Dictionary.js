@@ -33,10 +33,11 @@ axios.get(pexelsApiUrl, {headers : headers}).then(handlePexelsResponse);
     }
     return ( 
 <div className="dictionary">
+    <br />
     <form onSubmit={search}>
         <input type="search" onChange= {handleKeywordChange} />
-       
-    </form>
+       <input type="submit" value="Search"/>
+   </form> 
     <br />
     <Results results={results}/>
     <Photos photos={photos}/>
